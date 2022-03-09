@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Bebas+Neue&family=Fjalla+One&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:wght@300;400;700&family=Oswald:wght@400;700&family=Poppins:wght@200;300&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --bg-gray: #f0efef;
+    --color-primary: #4D41C0;
+    --color-white: #fff;
+    --text-gray: #4a4a4a;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+header {
+    background-color: var(--color-primary);
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header a, a:hover {
+    color: unset;
+    text-decoration: none; /* tirar o sublinhado do link */
+    
+}
+nav {
+    display: flex; /* um item ao lado do outro */
+    align-items: center;
+    justify-content: space-between;
+/* um em cada ponta */
+    
+}
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+body {
+    background-color: var(--bg-gray);
+}
+.dsmovie-card {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-white);
+    border-radius: 8px;
+}
+#dsmovie-card-list {
+    padding: 40px 0;
+}
+.dsmovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.dsmovie-card-description {
+    display: flex;
+    flex-direction: column; /* ficar um embaixo do outro */
+    align-items: center;
+    padding: 10px 0 20px 0;
+}
+.dsmovie-card-description h3 {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-gray);
+}
+.dsmovie-btn, .dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    left: 40px;
+    top: 290px;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 4px;
+    color: var(--color-white);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
