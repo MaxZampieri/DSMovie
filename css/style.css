@@ -65,7 +65,7 @@ body {
     flex-direction: column; /* ficar um embaixo do outro */
     align-items: center;
     padding: 10px 20px 20px 20px;
-    height: 220px;
+    height: 100px;
     justify-content: space-between;
 }
 .dsmovie-card-description h3 {
